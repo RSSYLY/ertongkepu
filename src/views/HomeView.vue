@@ -1,15 +1,21 @@
 <script>
 import HeaderBar from '../components/HeaderBar.vue';
 import FeatherBar from '../components/FeatherBar.vue';
+import imgUrl1 from '../assets/img/children.png'
 export default {
   components: {
     HeaderBar, FeatherBar
+  },
+  data(){
+    return{
+      imgUrl1
+    }
   }
 };
 </script>
 
 <template>
-  <HeaderBar title="儿童科普游戏" describe="欢迎来到儿童科普游戏世界，让孩子们在游戏中学习知识，快乐成长！" imgurl="src/assets/img/children.png" />
+  <HeaderBar title="儿童科普游戏" describe="欢迎来到儿童科普游戏世界，让孩子们在游戏中学习知识，快乐成长！" :imgurl="imgUrl1" />
   <FeatherBar title="丰富的内容" describe="我们提供丰富多样的内容，覆盖科学、自然、艺术等多个领域，让孩子们能够广泛学习和探索。" :infodata="[
     { 'etitle': '科学实验', 'edescribe': '通过有趣的实验，激发孩子们的好奇心，培养科学思维和实验能力。', 'imgurl': 'src/assets/img/earth.png' },
     { 'etitle': '自然探索', 'edescribe': '带领孩子们走进大自然，认识动植物，学习保护环境的重要性。', 'imgurl': 'src/assets/img/starsfield.png' },
