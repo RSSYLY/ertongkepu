@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <Header2Bar title="探索自然奥秘" describe="通过科普知识游戏，了解大自然的神奇之处" imgurl="../assets/img/coach.png" title1="探索奇妙动物"
+    <Header2Bar title="探索自然奥秘" describe="通过科普知识游戏，了解大自然的神奇之处" imgurl="/coach.png" title1="探索奇妙动物"
         describe1="通过游戏了解世界上一些奇妙的动物，它们的生活习性和特点" title2="揭秘自然现象" describe2="发现并了解一些奇异的自然现象，如彩虹、闪电等" />
     <div class="fcontent-1">
         <div class="content-1-sub">
