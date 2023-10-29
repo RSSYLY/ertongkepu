@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'HarmonyOS Sans SC';
+    src: url('./HarmonyOS_Sans_SC_Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('./Kalam-Regular.ttf');
+}
+@font-face {
+    font-family: 'PTSerif';
+    src: url('./PTSerif-Regular.ttf');
+}
+@font-face {
+    font-family: 'SourceHanSansCN-Bold';
+    src: url('./SourceHanSansCN-Bold.otf');
+}
+@font-face {
+    font-family: 'SourceHanSerifSC';
+    src: url('./SourceHanSerifSC-Regular.otf');
+}
+@font-face {
+    font-family: 'Kingsoft-Cloud-Font';
+    src: url('./Kingsoft_Cloud_Font.ttf');
+}
+@font-face {
+    font-family: 'TaipeiSansTCBeta-Bold';
+    src: url('./TaipeiSansTCBeta-Bold.ttf');
+}
