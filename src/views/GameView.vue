@@ -1,13 +1,19 @@
 <script>
 import Header2Bar from '../components/Header2Bar.vue';
+import imgUrl1 from '../assets/img/tide.png'
 export default {
   components: {
     Header2Bar
+  },
+  data(){
+    return{
+      imgUrl1
+    }
   }
 };
 </script>
 <template>
-  <Header2Bar title="儿童科普游戏" describe="带你进入神奇的科学世界" imgurl="src/assets/img/tide.png" title1="了解科学知识"
+  <Header2Bar title="儿童科普游戏" describe="带你进入神奇的科学世界" :imgurl="imgUrl1" title1="了解科学知识"
     describe1="游戏中将通过趣味的方式，让孩子们了解科学的奥秘，激发他们的学习兴趣。" title2="培养动手实践能力" describe2="通过实地操作，让孩子们亲自动手实践，锻炼他们的动手能力。" />
   <div class="frame-pDA-3">
     <div class="frame-bZR-1">

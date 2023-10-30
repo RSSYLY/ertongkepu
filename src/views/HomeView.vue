@@ -1,14 +1,20 @@
 <script>
 import HeaderBar from '../components/HeaderBar.vue';
 import FeatherBar from '../components/FeatherBar.vue';
-import imgUrl1 from '../assets/img/children.png'
+import imgUrl1 from '../assets/img/children.png';
+import imgUrl2 from '../assets/img/earth.png';
+import imgUrl3 from '../assets/img/starsfield.png';
+import imgUrl4 from '../assets/img/plants.png';
+import imgUrl5 from '../assets/img/microphone.png';
+import imgUrl6 from '../assets/img/corporation.png';
+import imgUrl7 from '../assets/img/sports.png';
 export default {
   components: {
     HeaderBar, FeatherBar
   },
   data(){
     return{
-      imgUrl1
+      imgUrl1,imgUrl2,imgUrl3,imgUrl4,imgUrl5,imgUrl6,imgUrl7
     }
   }
 };
@@ -17,12 +23,12 @@ export default {
 <template>
   <HeaderBar title="儿童科普游戏" describe="欢迎来到儿童科普游戏世界，让孩子们在游戏中学习知识，快乐成长！" :imgurl="imgUrl1" />
   <FeatherBar title="丰富的内容" describe="我们提供丰富多样的内容，覆盖科学、自然、艺术等多个领域，让孩子们能够广泛学习和探索。" :infodata="[
-    { 'etitle': '科学实验', 'edescribe': '通过有趣的实验，激发孩子们的好奇心，培养科学思维和实验能力。', 'imgurl': 'src/assets/img/earth.png' },
-    { 'etitle': '自然探索', 'edescribe': '带领孩子们走进大自然，认识动植物，学习保护环境的重要性。', 'imgurl': 'src/assets/img/starsfield.png' },
-    { 'etitle': '艺术创作', 'edescribe': '培养孩子们的艺术天赋，通过绘画、手工等活动，激发创造力和想象力。', 'imgurl': 'src/assets/img/plants.png' },
-    { 'etitle': '音乐乐园', 'edescribe': '让孩子们感受音乐的魅力，学习乐器演奏，培养音乐鉴赏能力。', 'imgurl': 'src/assets/img/microphone.png' },
-    { 'etitle': '编程学堂', 'edescribe': '通过编程游戏，培养孩子们的逻辑思维和计算机技术，为未来打下坚实基础。', 'imgurl': 'src/assets/img/corporation.png' },
-    { 'etitle': '运动乐园', 'edescribe': '在欢乐的运动中，锻炼孩子们的身体素质，培养团队合作和竞技精神。', 'imgurl': 'src/assets/img/sports.png' }]" />
+    { 'etitle': '科学实验', 'edescribe': '通过有趣的实验，激发孩子们的好奇心，培养科学思维和实验能力。', 'imgurl': imgUrl2 },
+    { 'etitle': '自然探索', 'edescribe': '带领孩子们走进大自然，认识动植物，学习保护环境的重要性。', 'imgurl': imgUrl3 },
+    { 'etitle': '艺术创作', 'edescribe': '培养孩子们的艺术天赋，通过绘画、手工等活动，激发创造力和想象力。', 'imgurl': imgUrl4 },
+    { 'etitle': '音乐乐园', 'edescribe': '让孩子们感受音乐的魅力，学习乐器演奏，培养音乐鉴赏能力。', 'imgurl': imgUrl5 },
+    { 'etitle': '编程学堂', 'edescribe': '通过编程游戏，培养孩子们的逻辑思维和计算机技术，为未来打下坚实基础。', 'imgurl': imgUrl6 },
+    { 'etitle': '运动乐园', 'edescribe': '在欢乐的运动中，锻炼孩子们的身体素质，培养团队合作和竞技精神。', 'imgurl': imgUrl7 }]" />
   <!-- Logos -->
   <div class="logos">
     <div class="logos-title">

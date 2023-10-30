@@ -1,15 +1,19 @@
 <script>
 // import TheWelcome from '../components/TheWelcome.vue'
 import HeaderBar from '../components/HeaderBar.vue';
+import imgUrl1 from '../assets/img/1.png';
 export default {
     components: {
         HeaderBar
+    },
+    data(){
+        return{imgUrl1}
     }
 };
 </script>
 
 <template>
-    <HeaderBar title="欢迎加入我们的团队" describe="我们是一个拥有创造力和激情的团队，致力于为孩子们打造有趣的科普游戏。" imgurl="src/assets/img/1.png" />
+    <HeaderBar title="欢迎加入我们的团队" describe="我们是一个拥有创造力和激情的团队，致力于为孩子们打造有趣的科普游戏。" :imgurl="imgUrl1" />
     <div class="frame-KlW-3">
         <div class="frame-fxh-1">
             <div class="text-Uai-1">
