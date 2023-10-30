@@ -30,7 +30,8 @@ import { RouterLink, RouterView } from 'vue-router';
 
 
   </div>
-  <RouterView />
+  
+    <RouterView />
 
   <footer>
     <div class="footer-1">
@@ -90,6 +91,7 @@ import { RouterLink, RouterView } from 'vue-router';
 </template>
 
 <style scoped>
+
 
 
 /* 导航栏 */
@@ -423,5 +425,6 @@ vertical-align: top;
 font-family: 'HarmonyOS Sans SC';
 
 }
+/* 加载遮罩 */
 
 </style>

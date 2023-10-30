@@ -58,7 +58,7 @@
                 <div class="com-content-right-item">
                     <img class="com-content-item-logo" src="../assets/icon/mail.png" style="width: 32px;height: 24px;">
                     <div class="com-content-item-title">邮箱</div>
-                    <div class="com-content-item-describe">support@rssan.com</div>
+                    <div class="com-content-item-describe">support@chiyu.moe</div>
                 </div>
                 <div class="com-content-right-item">
                     <img class="com-content-item-logo" src="../assets/icon/phone.png" style="width: 22px;height: 32px;">
